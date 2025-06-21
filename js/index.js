@@ -1,11 +1,11 @@
 // // // // 1
 
-let i = 0;
+// let i = 0;
 
-while (i <= 10) {
-  console.log(i);
-  i = i + 1;
-}
+// while (i <= 10) {
+//   console.log(i);
+//   i = i + 1;
+// }
 
 
 
@@ -15,12 +15,12 @@ while (i <= 10) {
 
 // // // 2
 
-for (let i = 2; i <= 20; i = i + 1) {
-  if (i % 2 != 0) continue;
-  else if (i % 2 === 0) {
-    console.log(i);
-  }
-}
+// for (let i = 2; i <= 20; i = i + 1) {
+//   if (i % 2 != 0) continue;
+//   else if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
 
 
 
@@ -30,14 +30,14 @@ for (let i = 2; i <= 20; i = i + 1) {
 
 // // 3
 
-let number = 7;
+// let number = 7;
 
-for (let i = 0;
-    i <= 10;
-    i += 1) {
-    const table = number * i;
-    console.log(`${i} : ${table}`);
-}
+// for (let i = 0;
+//     i <= 10;
+//     i += 1) {
+//     const table = number * i;
+//     console.log(`${i} : ${table}`);
+// }
 
 
 
@@ -67,12 +67,12 @@ while (a < n) {
 
 // 5
 
-let number1 = 0;
+// let number1 = 0;
 
-while (number1 <= 20) {
+// while (number1 <= 20) {
 
-    number1 += 1;
-  if (number1 % 3 === 0)
-        continue;
-  console.log(number1);
-}
+//     number1 += 1;
+//   if (number1 % 3 === 0)
+//         continue;
+//   console.log(number1);
+// }
