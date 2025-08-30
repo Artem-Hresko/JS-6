@@ -76,15 +76,11 @@ for (const key of keys) {
   console.log(`${key}: ${user[key]}`);
 }
 
-
-
 // Task2
-
 
 function countProps(obj) {
   return Object.keys(obj).length;
 }
-
 
 // Task3
 
@@ -93,7 +89,6 @@ const employees = {
   david: 35,
   lorence: 99,
 };
-
 
 function findBestEmployee(employees) {
   let bestEmployee = "";
@@ -108,3 +103,18 @@ function findBestEmployee(employees) {
 
   return bestEmployee;
 }
+
+// task 4
+
+const salaries = {
+  John: 1000,
+  Ann: 1600,
+  Pete: 1300,
+};
+
+function countTotalSalary(employees) {
+  return Object.values(employees).reduce((total, salary) => total + salary, 0);
+}
+
+const total = countTotalSalary(salaries);
+console.log(total);
